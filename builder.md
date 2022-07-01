@@ -3,7 +3,7 @@
 
 A base16 builder is an application that can build syntax highlighting definition files for text editors by using base16 scheme files which contain a collection of colours and base16 template files which contain syntax highlighting rules.
 
-Builders are designed for theme maintainers' ease of use. Theme maintainers should provide built versions of their theme so the end user doesn't need to be aware of the builder.
+Builders are designed for scheme maintainers' ease of use. Scheme maintainers should provide built versions of their scheme so the end user doesn't need to be aware of the builder.
 
 ## File Structure
 
@@ -49,7 +49,7 @@ Builders should also provide the following variables for convenience:
 - `base00-hex-bgr` to `base0F-hex-bgr` - built from a reversed version of all the hex values e.g "c2af7c"
 
 ## Code Structure
-There is no outline for a recommended code structure that a base16 theme builder should follow but a design goal should be to keep the application as simple as possible providing only the functionality described in this document. If you feel you have a great idea for additional functionality please raise an issue in the [base16 repository](https://github.com/chriskempson/base16).
+There is no outline for a recommended code structure that a base16 scheme builder should follow but a design goal should be to keep the application as simple as possible providing only the functionality described in this document. If you feel you have a great idea for additional functionality please raise an issue in the [base16 repository](https://github.com/chriskempson/base16).
 
 ## Considerations
 Mustache was chosen as the templating language due to its simplicity and widespread adoption across languages. YAML was chosen to describe scheme and configuration files for the same reasons.
