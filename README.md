@@ -1,7 +1,8 @@
 # ![Base16](logo.png)
 
-An architecture for building color schemes based on carefully chosen syntax
-highlighting using a base of sixteen colors.
+An architecture for crafting color schemes and easily translating them to  
+your favorite apps - based on carefully chosen syntax highlighting using a 
+base of sixteen colors.
 
 It allows users to choose a color scheme they know will be available for all
 their applications (both GUIs and terminal applications).
