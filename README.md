@@ -42,7 +42,7 @@ files based on scheme file and template file.
 
 A template defines how a scheme should be transformed to support a specific program.
 
-It is typically installed directly by end user to use different base16 schemes.
+These are typically installed directly by end users to use base16 schemes in different applications.
 
 A template repository typically defines a template file, then uses a builder to
 generate program specific files using the template file.
