@@ -49,7 +49,7 @@ Builders should also provide the following variables for convenience:
 - `base00-hex-bgr` to `base0F-hex-bgr` - built from a reversed version of all the hex values e.g "c2af7c"
 
 ## Code Structure
-There is no outline for a recommended code structure that a base16 scheme builder should follow but a design goal should be to keep the application as simple as possible providing only the functionality described in this document. If you feel you have a great idea for additional functionality please raise an issue in the [base16 repository](https://github.com/chriskempson/base16).
+There is no outline for a recommended code structure that a base16 builder should follow but a design goal should be to keep the application as simple as possible providing only the functionality described in this document. If you feel you have a great idea for additional functionality please raise an issue in the [base16 repository](https://github.com/chriskempson/base16).
 
 ## Considerations
 Mustache was chosen as the templating language due to its simplicity and widespread adoption across languages. YAML was chosen to describe scheme and configuration files for the same reasons.
