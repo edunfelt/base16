@@ -40,7 +40,7 @@ files based on scheme file and template file.
 
 ### Template
 
-A template defines how a theme should be transformed to support a specific program.
+A template defines how a scheme should be transformed to support a specific program.
 
 It is typically installed directly by end user to use different base16 schemes.
 
